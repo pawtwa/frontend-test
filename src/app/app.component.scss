@@ -9,10 +9,35 @@
   grid-area: header;
   height: 64px;
   border-bottom: 1px solid #EAEEF4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.main-head__logo__img {
+  height: 16px;
+}
+
+.menu-profile,
+.menu-profile__avatar,
+.menu-profile__menu,
+.menu-profile__menu__name,
+.menu-profile__menu__collapse {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.menu-profile__menu__collapse__img {
+  max-width: 9px;
 }
 
 .main-nav {
   grid-area: nav;
+  padding: 40px;
   background-color: #FFFFFF;
 }
 
@@ -49,7 +74,7 @@ ul {
   }
 
   .content {
-    padding: 35px 70px;
+    padding: 40px 60px;
   }
 
   ul {

@@ -1,11 +1,20 @@
 <div class="wrapper">
-  <header class="main-head">The header</header>
+  <header class="main-head">
+    <div class="main-head__logo"><img class="main-head__logo__img" src="/assets/images/logo.png"></div>
+    <div class="main-head__menu">
+      <div class="menu-profile">
+        <div class="menu-profile__avatar"><img src="/assets/images/avatar.png"></div>
+        <div class="menu-profile__menu clickable">
+          <div class="menu-profile__menu__name">Morten</div>
+          <div class="menu-profile__menu__collapse">
+            <img class="menu-profile__menu__collapse__img" src="/assets/images/collapse.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
   <nav class="main-nav">
-    <ul class="main-nav__list">
-      <li class="main-nav__list__item"><a href="">Nav 1</a></li>
-      <li class="main-nav__list__item"><a href="">Nav 2</a></li>
-      <li class="main-nav__list__item"><a href="">Nav 3</a></li>
-    </ul>
+    TODO
   </nav>
   <main class="content">
     <router-outlet></router-outlet>
