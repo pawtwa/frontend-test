@@ -1,0 +1,29 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 16px 12px;
+  background-color: white;
+  border: 1px solid #E5E9ED;
+  border-radius: 5px;
+}
+
+.list-item__title {
+  text-align: left;
+  font: Semibold/Soleil;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0;
+  color: #00124F;
+  opacity: 1;
+}
+
+.list-item__btn {
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #0087EF;
+  padding: 12px 38px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

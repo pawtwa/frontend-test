@@ -1,0 +1,7 @@
+<div class="list">
+  <div class="list__search-box">
+    <input class="list__search-box__input" type="text" [ngModel]="searchValue" (ngModelChange)="search($event)"
+           [ngModelOptions]="{standalone: true, name: 'search'}">
+  </div>
+  <app-list-item class="list__item" *ngFor="let item of items$ | async" [item]="item"></app-list-item>
+</div>

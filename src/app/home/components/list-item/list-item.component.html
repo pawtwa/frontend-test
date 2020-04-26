@@ -1,0 +1,8 @@
+<div class="list-item-wrapper" [ngStyle]="{paddingLeft: getPaddingLeftByLevel()}">
+  <div class="list-item">
+    <span class="list-item__title">{{ item.title }}</span>
+    <button class="list-item__btn" type="button"
+            [routerLink]="['/', item.id]">Button
+    </button>
+  </div>
+</div>
